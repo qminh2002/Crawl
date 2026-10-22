@@ -1,0 +1,10 @@
+{
+  "tagOwners": {
+    "tag:crawl": ["autogroup:admin"],
+    "tag:core":  ["autogroup:admin"]
+  },
+  "acls": [
+    {"action": "accept", "src": ["autogroup:member"], "dst": ["*:*"]},
+    {"action": "accept", "src": ["tag:crawl"], "dst": ["tag:core:3010"]}
+  ]
+}
